@@ -1,0 +1,26 @@
+{
+	"name": "__template_name_slug__",
+	"version": "0.0.10",
+	"description": "__template_description__",
+	"main": "index.js",
+	"scripts": {
+		"install": "node ./node_modules/gulp/bin/gulp.js build"
+	},
+	"author": "__author__",
+	"license": "ISC",
+	"dependencies": {
+		"browser-sync": "latest",
+		"gulp": "~3.9.1",
+		"@loopify-jfrog-public/gulp-loopify-document-parse": "^2.0.1",
+		"@loopify-jfrog-public/gulp-loopify-document-render": "^2.0.0",
+		"gulp-rename": "latest"
+	},
+	"devDependencies": {
+		"@loopify-jfrog-public/loopify-document-linter": "latest",
+		"@loopify-jfrog-public/loopify-document": "^1.2.7",
+		"typescript": "latest"
+	},
+	"resolutions": {
+		"graceful-fs": "^4.2.4"
+	}
+}
