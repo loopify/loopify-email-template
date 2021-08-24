@@ -18,12 +18,6 @@ Example for mac OS X:
 $ brew install node
 ```
 
-Install [Gulp](http://gulpjs.com):
-
-```bash
-$ yarn global add gulp
-```
-
 Set yarn scoped registry for Loopify packages:
 
 ```bash
@@ -48,20 +42,20 @@ Documentation on the Loopify document format can be found [here](http://docs.loo
 ### Building
 
 ```bash
-$ gulp
+$ node ./node_modules/gulp/bin/gulp.js build
 ```
 
 ### Serve and watch files while developing
 (Auto-build on file changes)
 
 ```bash
-$ gulp serve
+$ node ./node_modules/gulp/bin/gulp.js serve
 ```
 
 ---
 
 You can also preview your template in the editors inside the Loopify web app.
-When running `gulp serve` you will get a random tunnel URL.
+When running `serve` you will get a random tunnel URL.
 It might look like this: `https://lnapkgyckb.localtunnel.me`.
 
 Go to [stage.loopify.com](https://stage.loopify.com) and log in to any of your accounts.
