@@ -1,8 +1,5 @@
 .DS_Store
 Thumbs.db
-bower_components
 node_modules
 tmp
 package-lock.json
-*.sublime-workspace
-*.sublime-project
