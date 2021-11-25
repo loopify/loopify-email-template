@@ -17,7 +17,7 @@
 	},
 	"devDependencies": {
 		"@loopify-jfrog-public/loopify-document-linter": "latest",
-		"@loopify-jfrog-public/loopify-document": "^1.2.7",
+		"@loopify-jfrog-public/loopify-document": "^1.3.0",
 		"typescript": "latest"
 	},
 	"resolutions": {

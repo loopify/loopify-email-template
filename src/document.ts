@@ -1,13 +1,11 @@
-import {EmailDocument} from '@loopify-jfrog-public/loopify-document';
-declare let document:EmailDocument;
+import {EmailRootTemplate} from '@loopify-jfrog-public/loopify-document';
+declare let document:EmailRootTemplate;
 
 document = {
 	type: 'email',
 	name: '__template_name__',
-	subject: '',
-	preHeader: '',
 	tags: [],
-	colorScheme: [],
+	compatibility: [],
 	fonts: [],
 	scope: {},
 	campaignScope: {},
@@ -18,17 +16,11 @@ document = {
 		{
 			_id: 'ml-49f40336cc6d5db09a466a8eaf175426',
 			name: 'Paragraph',
-			enabled: true,
 			modulesAllowed: 'aboveAndBelow',
 			removable: true,
 			movable: true,
 			editable: true,
-			scope:{},
-			sharedScope:{},
-			scopeDescriptors:{},
-			hiddenScopeProperties:[],
-			html: 'templates/module.html',
-			filter: null
+			scope:{}
 		}
 	],
 	allModules: [
@@ -44,8 +36,7 @@ document = {
 			sharedScope:{},
 			scopeDescriptors:{},
 			hiddenScopeProperties:[],
-			html: 'templates/module.html',
-			filter: null
+			html: 'templates/module.html'
 		}
 	]
 };
