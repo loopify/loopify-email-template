@@ -2,12 +2,12 @@
 # yarn lockfile v1
 
 
-"@loopify-jfrog-public/gulp-loopify-document-parse@^2.0.3":
-  version "2.0.3"
-  resolved "https://loopify.jfrog.io/artifactory/api/npm/npm-local-public/@loopify-jfrog-public/gulp-loopify-document-parse/-/@loopify-jfrog-public/gulp-loopify-document-parse-2.0.3.tgz#61e5e972927f64e72a271575c67f29a5d3b862f5"
-  integrity sha1-YeXpcpJ/ZOcqJxV1xn8ppdO4YvU=
+"@loopify-jfrog-public/gulp-loopify-document-parse@^3.0.0":
+  version "3.0.0"
+  resolved "https://loopify.jfrog.io/artifactory/api/npm/npm-local-public/@loopify-jfrog-public/gulp-loopify-document-parse/-/@loopify-jfrog-public/gulp-loopify-document-parse-3.0.0.tgz#e511092579b7a9f53e150e4b1c3939b1baec9fb1"
+  integrity sha1-5REJJXm3qfU+FQ5LHDk5sbrsn7E=
   dependencies:
-    "@loopify-jfrog-public/loopify-document-parser" "^1.2.3"
+    "@loopify-jfrog-public/loopify-document-parser" "^1.3.0"
     gulp-util "^3.0.7"
     through2 "^2.0.1"
 
@@ -30,10 +30,10 @@
   resolved "https://loopify.jfrog.io/artifactory/api/npm/npm-local-public/@loopify-jfrog-public/loopify-document-linter/-/@loopify-jfrog-public/loopify-document-linter-1.0.7.tgz#2517365e99afc79db4b19ed58119a259457787fb"
   integrity sha1-JRc2Xpmvx520sZ7VgRmiWUV3h/s=
 
-"@loopify-jfrog-public/loopify-document-parser@^1.2.3":
-  version "1.2.3"
-  resolved "https://loopify.jfrog.io/artifactory/api/npm/npm-local-public/@loopify-jfrog-public/loopify-document-parser/-/@loopify-jfrog-public/loopify-document-parser-1.2.3.tgz#80587435796c646fa6cc610fa3c21a61bcfe1eec"
-  integrity sha1-gFh0NXlsZG+mzGEPo8IaYbz+Huw=
+"@loopify-jfrog-public/loopify-document-parser@^1.3.0":
+  version "1.3.0"
+  resolved "https://loopify.jfrog.io/artifactory/api/npm/npm-local-public/@loopify-jfrog-public/loopify-document-parser/-/@loopify-jfrog-public/loopify-document-parser-1.3.0.tgz#f025c79ee8cebbfb18b4dea60ba5113e06a6cb13"
+  integrity sha1-8CXHnujOu/sYtN6mC6URPgamyxM=
   dependencies:
     "@loopify-jfrog-public/loopify-document-clearing-script" "^1.0.2"
     "@loopify-jfrog-public/loopify-document-reset-css" "^0.0.1"

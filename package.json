@@ -11,7 +11,7 @@
 	"dependencies": {
 		"browser-sync": "latest",
 		"gulp": "~3.9.1",
-		"@loopify-jfrog-public/gulp-loopify-document-parse": "^2.0.3",
+		"@loopify-jfrog-public/gulp-loopify-document-parse": "^3.0.0",
 		"@loopify-jfrog-public/gulp-loopify-document-render": "^2.0.3",
 		"gulp-rename": "latest"
 	},
